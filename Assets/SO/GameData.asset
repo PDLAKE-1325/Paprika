@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 554c867daec6e4e728a08bac5e18a0f1, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: 
+  screenIndex: 0
+  UI_on_off: 1
