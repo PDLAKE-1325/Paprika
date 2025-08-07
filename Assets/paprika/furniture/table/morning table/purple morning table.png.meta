@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      purple morning table_0: 5141313427330850810
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

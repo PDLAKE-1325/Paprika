@@ -1,11 +1,14 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.UI;
 public class MainChange : MonoBehaviour
 {
     public List<GameObject> screen;
+    public Image eye;
+    public List<Sprite> eyeSprite;
     void Start()
     {
-        ChangeScreen(GlobalGameData.Instance.data.screenIndex);//시작시 기본 첫번째
+        ChangeScreen(0);//시작시 기본 첫번째
     }
     public void ChangeScreen(int index)
     {
@@ -32,6 +35,11 @@ public class MainChange : MonoBehaviour
             if(GlobalGameData.Instance.data.UI_on_off=GlobalGameData.Instance.data.UI_on_off)//2번 누르면 다시 함수 호출해서 원래 화면 보이게하기
             {
                 ChangeScreen(GlobalGameData.Instance.data.screenIndex);
+                eye.sprite=eyeSprite[0];
+            }
+            else
+            {
+                eye.sprite=eyeSprite[1];
             }
         }
         else

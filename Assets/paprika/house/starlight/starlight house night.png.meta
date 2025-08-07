@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      starlight house night_0: 6930936144799814180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

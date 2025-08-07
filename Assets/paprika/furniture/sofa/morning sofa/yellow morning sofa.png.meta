@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      yellow morning sofa_0: -6069540109701257778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

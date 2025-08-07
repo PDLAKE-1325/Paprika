@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      paprika flower_0: -8876027263243200946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7119dcb2926c6b447a0e3dd87ff85a87
+guid: 65f7074b8bbe74c42acb79f02c64b29b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5878329310034342498
-    second: yellow morning bed_0
+      213: -3685760008999291469
+    second: New Piskel (2) 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yellow morning bed_0
+      name: New Piskel (2) 1_0
       rect:
         serializedVersion: 2
-        x: 926
-        y: 459
-        width: 518
-        height: 370
+        x: 0
+        y: 0
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2623d5ddc55049150800000000000000
-      internalID: 5878329310034342498
+      spriteID: 3b5b140cccc89dcc0800000000000000
+      internalID: -3685760008999291469
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      yellow morning bed_0: 5878329310034342498
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

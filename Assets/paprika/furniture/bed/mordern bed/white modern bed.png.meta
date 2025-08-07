@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      white modern bed_0: 7537578555824736522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

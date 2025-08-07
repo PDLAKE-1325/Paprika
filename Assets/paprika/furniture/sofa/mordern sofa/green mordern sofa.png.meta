@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      green mordern sofa_0: -3385322125069512054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
