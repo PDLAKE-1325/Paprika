@@ -1732,7 +1732,7 @@ PrefabInstance:
     - target: {fileID: 3184704674421644565, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4593849978722187685, guid: ee0e57ad42f067d48b826b5a7b335480, type: 3}
+      objectReference: {fileID: 3815143560384534608, guid: 1d55d195b10ed794ea03071aaf1c9b47, type: 3}
     - target: {fileID: 3184704674421644565, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -1887,7 +1887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: black modern bed_0
+      value: black mordern bed_2_0
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5869,7 +5869,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &872419626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7307,7 +7307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &992864680
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15574,7 +15574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1779435686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15672,7 +15672,7 @@ MonoBehaviour:
   buyImage: {fileID: 1378417022}
   Item:
   - {fileID: 7537578555824736522, guid: a0ab9a6ab3041284cb422e722ce48689, type: 3}
-  - {fileID: 4593849978722187685, guid: ee0e57ad42f067d48b826b5a7b335480, type: 3}
+  - {fileID: 3815143560384534608, guid: 1d55d195b10ed794ea03071aaf1c9b47, type: 3}
   - {fileID: 8136817364642953693, guid: c7ba4bf6f83eeeb48887719d6e2167b3, type: 3}
   - {fileID: -1758341170529865849, guid: cfe73acdb79d5e54fb8a6bb3bc5492f8, type: 3}
   - {fileID: 4235205289104347874, guid: 7fdb63a043a35f946a34bc7508703916, type: 3}
@@ -17011,7 +17011,7 @@ RectTransform:
   m_Father: {fileID: 893318405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
