@@ -1,11 +1,13 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 public class Buyscreen : MonoBehaviour
 {
     public GameObject buywindow;
     public Image buyImage;
     public List<Sprite> Item;
+    public TMP_Text buytext;
     public void buywindowON(bool buywindowWhether){
         buywindow.SetActive(buywindowWhether);//사는 창 열고 닫기
     }
@@ -44,6 +46,10 @@ public class Buyscreen : MonoBehaviour
         return Flower_Pet_Sizes[index-28];
 
         return new Vector2(100, 100); // 기본값
-    } 
+    }
+    public void BuyText(string furniture)
+    {
+        buytext.text=furniture+"을(를) 구매 하시겠습니까?";
+    }
     
 }
