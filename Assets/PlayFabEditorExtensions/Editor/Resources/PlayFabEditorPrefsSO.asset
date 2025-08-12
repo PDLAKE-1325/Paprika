@@ -15,7 +15,7 @@ MonoBehaviour:
   DevAccountEmail: shamiu2311.8@gmail.com
   DevAccountToken: m3yd6jg7t9amo8dn6hsdtip4zyxazewnto8k7txdftnfdnrw3jpttbaqcbdmh8ot94bmzz51gaca1ddso8act869fnhzny8whm55tpywofqcz3ioz3hrxsukg1iendcewmzm5jabgidy9i9d4achx1rs8o9g3d6xrptu1o8gubohwp1fd86aoxy6zrfhodfw58phypy9
   AadAuthorization: 
-  SelectedStudio: 
+  SelectedStudio: _OVERRIDE_
   SdkPath: Assets/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 

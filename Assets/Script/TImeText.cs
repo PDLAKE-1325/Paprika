@@ -1,24 +1,36 @@
-using System;
-using System.Collections;
 using UnityEngine;
-using UnityEngine.Networking;
 using UnityEngine.UI;
+using PlayFab;
+using PlayFab.ClientModels;
 
 public class TImeText : MonoBehaviour
 {
-    [SerializeField] Text cur_time;
-    [SerializeField] Text cur_mmdd;
-    float time;
+    [SerializeField] Text time_text;
+    [SerializeField] Text mmdd_text;
+    float refresh_time = 3;
+    float cur_time;
     void Update()
     {
         // cur_mmdd.text = $"{month}.{day}.";
         // cur_time.text = $"{hour:D2}:{minute:D2}";
-        time += Time.deltaTime;
-        if (time > 10)
+        cur_time += Time.deltaTime;
+        if (cur_time > refresh_time)
         {
-            print("rr");
-            time = 0;
+            cur_time = 0;
+            PlayFabClientAPI.GetTime(new GetTimeRequest(), OnSuccess, OnError);
         }
     }
 
+    void OnSuccess(GetTimeResult result)
+    {
+        Debug.Log("UTC 플래이팹 서버 시간 " + result.Time);
+
+        System.DateTime koreaTime = result.Time.ToLocalTime().AddHours(9);
+        Debug.Log("한국 시간: " + koreaTime);
+    }
+
+    void OnError(PlayFabError error)
+    {
+        Debug.LogError("시간 받아오는거 에러남 > " + error.GenerateErrorReport());
+    }
 }
