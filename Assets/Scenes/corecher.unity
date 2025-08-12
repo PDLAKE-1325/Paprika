@@ -6512,7 +6512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time_text: {fileID: 1038383461}
-  mmdd_text: {fileID: 0}
+  mmdd_text: {fileID: 196936730}
 --- !u!1 &540762100
 GameObject:
   m_ObjectHideFlags: 0

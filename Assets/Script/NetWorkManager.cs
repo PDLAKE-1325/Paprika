@@ -3,10 +3,35 @@ using PlayFab.ClientModels;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
-public class NetWorkManager : MonoBehaviour
+public class NetWorkManager : Singleton<NetWorkManager>
 {
     private bool heartbeatRunning = false;
+
+    #region Enterance
+
+    public void Register(string email, string password, string nickname)
+    {
+        var request = new RegisterPlayFabUserRequest
+        {
+            Email = email,
+            Password = password,
+            Username = nickname,
+            DisplayName = nickname,
+            RequireBothUsernameAndEmail = false, // 이메일 필수 여부
+        };
+
+        PlayFabClientAPI.RegisterPlayFabUser(request, result =>
+        {
+            Debug.Log("회원가입 성공!");
+            // 가입 후 자동 로그인 처리
+            Login(email, password);
+        }, error =>
+        {
+            Debug.LogError("회원가입 실패 : " + error.GenerateErrorReport());
+        });
+    }
 
     public void Login(string email, string password)
     {
@@ -29,9 +54,24 @@ public class NetWorkManager : MonoBehaviour
 
     public void Logout()
     {
+        Debug.Log("로그아웃함");
         CallManageSession("logout");
         StopHeartbeat();
     }
+
+    #endregion
+
+    #region Exit
+
+    void OnApplicationQuit()
+    {
+        Logout();
+        Debug.Log("종료");
+    }
+
+    #endregion
+
+    #region HeartBeat
 
     private void CallManageSession(string action)
     {
@@ -57,6 +97,7 @@ public class NetWorkManager : MonoBehaviour
             else
             {
                 Debug.Log($"서버 응답 : {functionResult["result"]}");
+                SceneManager.LoadScene("corecher");
             }
         }, error =>
         {
@@ -87,4 +128,24 @@ public class NetWorkManager : MonoBehaviour
             CallManageSession("heartbeat");
         }
     }
+
+    #endregion
+
+    #region Extra
+
+    public void RgButtonPressed()
+    {
+        // 비번제한 between 6~100자
+        Register("hhdh@gmail.com", "hello123", "micle");
+    }
+    public void LoginButtonPressed()
+    {
+        // 비번제한 between 6~100자
+        Login("hhdh@gmail.com", "hello123");
+    }
+
+    // 회원가입 실패 : /Client/RegisterPlayFabUser: Email address not available
+    // 회원가입 실패 : /Client/RegisterPlayFabUser: The display name entered is not available.
+
+    #endregion
 }
