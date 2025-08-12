@@ -7,17 +7,19 @@ public class Buyscreen : MonoBehaviour
     public GameObject buywindow;
     public Image buyImage;
     public List<Sprite> Item;
-    public TMP_Text buytext;
-    public void buywindowON(bool buywindowWhether){
+    public Text buytext;
+    public void buywindowON(bool buywindowWhether)
+    {
         buywindow.SetActive(buywindowWhether);//사는 창 열고 닫기
     }
-    public void ItemDivision(string name){// 버튼 마다 item 구분을 위한 함수
-        for(int i=0;i<Item.Count;i++)
+    public void ItemDivision(string name)
+    {// 버튼 마다 item 구분을 위한 함수
+        for (int i = 0; i < Item.Count; i++)
         {
-            if(Item[i].name==name)
-            {   
-                buyImage.sprite=Item[i];
-                buyImage.rectTransform.sizeDelta=GetSizeByIndex(i);
+            if (Item[i].name == name)
+            {
+                buyImage.sprite = Item[i];
+                buyImage.rectTransform.sizeDelta = GetSizeByIndex(i);
             }
         }
     }
@@ -30,7 +32,7 @@ public class Buyscreen : MonoBehaviour
         if (index < 16) return new Vector2(377, 314); // 야외 의자
         if (index < 19) return new Vector2(447, 348); // 사각 테이블
         if (index < 24) return new Vector2(408, 303); // 반원 테이블
-        if (index < 28) return new Vector2(1080/2, 1081/2); // 집
+        if (index < 28) return new Vector2(1080 / 2, 1081 / 2); // 집
         // 아래는 각각 고정
         Vector2[] Flower_Pet_Sizes = {
             new Vector2(96*2, 183*2),  // 나팔꽃 i==28
@@ -42,14 +44,14 @@ public class Buyscreen : MonoBehaviour
             new Vector2(107*2, 63*2)   //우파루파 i==34
         };
 
-        if(index - 28>=0)
-        return Flower_Pet_Sizes[index-28];
+        if (index - 28 >= 0)
+            return Flower_Pet_Sizes[index - 28];
 
         return new Vector2(100, 100); // 기본값
     }
     public void BuyText(string furniture)
     {
-        buytext.text=furniture+"을(를) 구매 하시겠습니까?";
+        buytext.text = furniture + " 을(를) 구매 하시겠습니까?";
     }
-    
+
 }
