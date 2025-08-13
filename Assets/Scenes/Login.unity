@@ -542,18 +542,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\uD68C\uC6D0\uAC00\uC785 \uD14C\uC2A4\uD2B8"
 --- !u!222 &1573221657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -598,8 +598,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: -52}
-  m_SizeDelta: {x: 389.29, y: 251.25}
+  m_AnchoredPosition: {x: -324, y: -828}
+  m_SizeDelta: {x: 345.56, y: 163.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1741651647
 MonoBehaviour:
@@ -829,18 +829,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 57
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 57
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\uD14C\uC2A4\uD2B8\uC6A9 \uB85C\uADF8\uC778"
 --- !u!222 &1939042693
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -885,8 +885,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: -465}
-  m_SizeDelta: {x: 389.29, y: 251.25}
+  m_AnchoredPosition: {x: 71, y: -838.63}
+  m_SizeDelta: {x: 333.63, y: 142.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2042572744
 MonoBehaviour:
