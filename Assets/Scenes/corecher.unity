@@ -1184,6 +1184,81 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
   m_PrefabInstance: {fileID: 1357148258}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &137509637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 137509640}
+  - component: {fileID: 137509639}
+  - component: {fileID: 137509638}
+  m_Layer: 5
+  m_Name: bed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &137509638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137509637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 7537578555824736522, guid: a0ab9a6ab3041284cb422e722ce48689, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &137509639
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137509637}
+  m_CullTransparentMesh: 1
+--- !u!224 &137509640
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137509637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 287919710}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 233, y: -248}
+  m_SizeDelta: {x: 523, y: 386}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &140878090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,7 +1286,7 @@ RectTransform:
   m_GameObject: {fileID: 140878090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7, y: 1.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 287919710}
@@ -1219,7 +1294,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -53}
-  m_SizeDelta: {x: 900, y: 824.5}
+  m_SizeDelta: {x: 540, y: 540.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &140878092
 MonoBehaviour:
@@ -1378,6 +1453,34 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: green mordern sofa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: green mordern sofa_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1593,6 +1696,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: yellow morning sofa
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: yellow morning sofa_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1784,6 +1911,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196936728}
   m_CullTransparentMesh: 1
+--- !u!1 &206630810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 206630813}
+  - component: {fileID: 206630812}
+  - component: {fileID: 206630811}
+  m_Layer: 5
+  m_Name: pot_flower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &206630811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206630810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 6928622953768870497, guid: 453cf713b46469b4a85fad97adf1163c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &206630812
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206630810}
+  m_CullTransparentMesh: 1
+--- !u!224 &206630813
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206630810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 287919710}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 105, y: -342}
+  m_SizeDelta: {x: 192, y: 366}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &220228011
 GameObject:
   m_ObjectHideFlags: 0
@@ -3075,6 +3277,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: puppy
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: puppy(1)_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3116,6 +3342,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 140878091}
+  - {fileID: 749882168}
+  - {fileID: 137509640}
+  - {fileID: 1776399624}
+  - {fileID: 206630813}
+  - {fileID: 327043488}
   m_Father: {fileID: 302988506}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3288,6 +3519,34 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: black mordern bed_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: black mordern bed_2_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3692,6 +3951,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: chestnut trumpet flower
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: chestnut trumpet flower_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4130,8 +4413,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 772999810}
-  - {fileID: 978490511}
   - {fileID: 1786638879}
+  - {fileID: 978490511}
   - {fileID: 817509812}
   - {fileID: 1022690314}
   - {fileID: 437865676}
@@ -4301,6 +4584,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326253327}
   m_CullTransparentMesh: 1
+--- !u!1 &327043485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 327043488}
+  - component: {fileID: 327043487}
+  - component: {fileID: 327043486}
+  m_Layer: 5
+  m_Name: pet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &327043486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327043485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6633849371233144040, guid: 0d2f85e47f267474fb2958150d57b02c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &327043487
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327043485}
+  m_CullTransparentMesh: 1
+--- !u!224 &327043488
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327043485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 287919710}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 232, y: -218}
+  m_SizeDelta: {x: 200, y: 190}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &342177474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4739,7 +5097,7 @@ RectTransform:
   m_Father: {fileID: 1287466161}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 3, y: 7.5}
   m_SizeDelta: {x: 6, y: 95}
   m_Pivot: {x: 1, y: 0.5}
@@ -4909,6 +5267,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: white modern bed
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: white modern bed_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4929,13 +5315,14 @@ GameObject:
   m_Component:
   - component: {fileID: 375106422}
   - component: {fileID: 375106424}
+  - component: {fileID: 375106425}
   m_Layer: 5
   m_Name: Design_Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &375106422
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4978,6 +5365,25 @@ MonoBehaviour:
   - {fileID: 1246148405}
   - {fileID: 1902004357}
   blackbar: {fileID: 1947709535}
+--- !u!114 &375106425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375106421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49ad2eff8cb3034c8bf6944d357f249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buyscreen: {fileID: 1779435690}
+  house: {fileID: 140878092}
+  bad: {fileID: 137509638}
+  sopa: {fileID: 1776399622}
+  table: {fileID: 749882166}
+  pot: {fileID: 206630811}
+  pet: {fileID: 327043486}
 --- !u!1 &377500829
 GameObject:
   m_ObjectHideFlags: 0
@@ -5244,6 +5650,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: starlight bed
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 375106421}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 375106421}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: starlight bed_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5377,6 +5819,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: taddy bear table
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: taddy bear table_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5704,6 +6170,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: yellow morning table
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: yellow morning table_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7105,6 +7595,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: starlight house day
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: starlight house day_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7669,6 +8187,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: rose flower
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: rose flower_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7967,7 +8509,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 364733805}
   m_HandleRect: {fileID: 364733804}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -8340,6 +8882,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: teddy bear bed
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: teddy bear bed_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8350,6 +8920,81 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4081037552229358316, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
   m_PrefabInstance: {fileID: 733370974}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &749882165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 749882168}
+  - component: {fileID: 749882167}
+  - component: {fileID: 749882166}
+  m_Layer: 5
+  m_Name: table
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &749882166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749882165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -2366877423527914445, guid: 2838068e5b44baf4db19e1675dc82784, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &749882167
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749882165}
+  m_CullTransparentMesh: 1
+--- !u!224 &749882168
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749882165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 287919710}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 80, y: -122}
+  m_SizeDelta: {x: 447, y: 348}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &765302964
 GameObject:
   m_ObjectHideFlags: 0
@@ -8619,6 +9264,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: white mordern table
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: white mordern table_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9279,6 +9948,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: pink morning table
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: pink morning table_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9700,6 +10393,34 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: pink morning bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: pink morning bed_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10262,6 +10983,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: black mordern sofa
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: black mordern sofa_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10510,6 +11259,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: green mordern table
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: green mordern table_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11145,7 +11918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &992864680
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11573,6 +12346,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: purple morning table
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: purple morning table_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12228,6 +13025,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: pink morning sofa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: pink morning sofa_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12999,6 +13820,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: white mordern sofa
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: white mordern sofa_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13190,8 +14039,8 @@ RectTransform:
   - {fileID: 35466111}
   - {fileID: 1105026437}
   - {fileID: 310974572}
-  - {fileID: 1236935968}
   - {fileID: 1740937117}
+  - {fileID: 1236935968}
   m_Father: {fileID: 1420716467}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -13999,6 +14848,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: cat sitting(1)_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17710,6 +18583,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: paprika flower
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: paprika flower_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18570,8 +19467,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1121672156}
-  - {fileID: 143406641}
   - {fileID: 964893723}
+  - {fileID: 143406641}
   - {fileID: 1071293015}
   - {fileID: 1664444024}
   - {fileID: 185500224}
@@ -19114,6 +20011,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: purple morning bed
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: purple morning bed_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19496,6 +20421,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: green modern bed
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: green modern bed_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19613,6 +20566,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: Uparupa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Uparupa(1)_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19941,6 +20918,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: purlpe morning sofa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: purlpe morning sofa_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20535,6 +21536,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: sunflower
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: sunflower_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20666,6 +21691,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775877321}
   m_CullTransparentMesh: 1
+--- !u!1 &1776399621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1776399624}
+  - component: {fileID: 1776399623}
+  - component: {fileID: 1776399622}
+  m_Layer: 5
+  m_Name: sopa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1776399622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776399621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 2100587025243365278, guid: 6a70a545163cccf4989c089ed4f2736c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1776399623
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776399621}
+  m_CullTransparentMesh: 1
+--- !u!224 &1776399624
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776399621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 287919710}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -201, y: -211}
+  m_SizeDelta: {x: 309, y: 315}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1779435685
 GameObject:
   m_ObjectHideFlags: 0
@@ -20778,6 +21878,8 @@ MonoBehaviour:
   - {fileID: 4018446841398345536, guid: 3cff72ada1446d2489c27fcd5e29482d, type: 3}
   - {fileID: -6762446538679827777, guid: 8e87344fd08064949bc9965fd74f9d1f, type: 3}
   - {fileID: -1896860752618446195, guid: 85ed3b4078b177046b7443a4b4221fb5, type: 3}
+  - {fileID: -6633849371233144040, guid: 0d2f85e47f267474fb2958150d57b02c, type: 3}
+  - {fileID: 591237593260616128, guid: e2fef494a2b4fdd42b076dc01997a29c, type: 3}
   buytext: {fileID: 1893582636}
 --- !u!1001 &1786638878
 PrefabInstance:
@@ -20902,6 +22004,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: black mordern table
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: black mordern table_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21032,6 +22158,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: starlight sofa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: starlight sofa_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21791,6 +22941,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: yellow morning bed
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: yellow morning bed_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22042,7 +23220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1902004358
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22267,6 +23445,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: starlight table
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: starlight table_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23100,6 +24302,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: red panda
       objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: red panda(1)_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23237,6 +24463,34 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: black house day
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: black house day_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23585,6 +24839,34 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: basic house day
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: basic house day_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24042,6 +25324,34 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: white house day
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: white house day_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24608,6 +25918,30 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
       propertyPath: m_Name
       value: taddy bear sofa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 375106425}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Design, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: taddy bear sofa_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890460818396601373, guid: b2bffb87bb8da4d25a6e12960e67c352, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
