@@ -32,9 +32,10 @@ public class TImeText : MonoBehaviour
     }
     public void CheckLoginStatus()
     {
-        PlayFabClientAPI.GetUserData(new GetUserDataRequest(), result =>
+        PlayFabClientAPI.GetAccountInfo(new GetAccountInfoRequest(), result =>
         {
-            Debug.Log("로그인 되어있음");
+            GlobalGameData.Instance.data.my_displayName = result.AccountInfo.TitleInfo.DisplayName;
+            Debug.Log("로그인 되어있음 : " + GlobalGameData.Instance.data.my_displayName);
             loggedIn = true;
         }, error =>
         {

@@ -90,20 +90,24 @@ public class NetWorkManager : Singleton<NetWorkManager>
                 Debug.LogWarning($"서버 에러남 : {functionResult["error"]}");
                 if (action == "login" && functionResult["error"].ToString().Contains("Already logged in"))
                 {
-                    // 중복 로그인 처리 로직 추가 가능
+                    // 중복 로그인 처리 로직 추가 가능 넣어도되는데 지금 안함
                     Debug.LogWarning("다른 기기에서 이미 로그인 중임");
                 }
             }
             else
             {
                 Debug.Log($"서버 응답 : {functionResult["result"]}");
-                SceneManager.LoadScene("corecher");
+                if (action == "login")
+                {
+                    SceneManager.LoadScene("corecher");
+                }
             }
         }, error =>
         {
             Debug.LogError("Cloud Script 호출 실패 : " + error.GenerateErrorReport());
         });
     }
+
 
     private void StartHeartbeat()
     {
@@ -136,12 +140,14 @@ public class NetWorkManager : Singleton<NetWorkManager>
     public void RgButtonPressed()
     {
         // 비번제한 between 6~100자
-        Register("hhdh@gmail.com", "hello123", "micle");
+        // Register("hhdh@gmail.com", "hello123", "micle");
+        Register("hhdh2@gmail.com", "hello123", "micle2");
     }
     public void LoginButtonPressed()
     {
         // 비번제한 between 6~100자
-        Login("hhdh@gmail.com", "hello123");
+        // Login("hhdh@gmail.com", "hello123");
+        Login("hhdh2@gmail.com", "hello123");
     }
 
     // 회원가입 실패 : /Client/RegisterPlayFabUser: Email address not available
