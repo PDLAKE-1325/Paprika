@@ -4,7 +4,7 @@ using PlayFab;
 using PlayFab.ClientModels;
 using System;
 
-public class TImeText : MonoBehaviour
+public class TImeText : Singleton<TImeText>
 {
     [Header("시간 텍스트 컴포넌트")]
     [SerializeField] Text time_text;
@@ -21,7 +21,7 @@ public class TImeText : MonoBehaviour
     [SerializeField] private Color nightColor = new Color(0.2f, 0.2f, 0.4f);   // 밤 (20~4시)
 
     float refresh_time = 120;
-    private DateTime lastServerTime;
+    public DateTime lastServerTime { get; private set; }
     private float cur_time = float.PositiveInfinity;
     bool loggedIn;
 

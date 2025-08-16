@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 173b9983f02a0480f8be0a0bb8ca82e7
+guid: 9a2b0bf6ba55943e886224f4573f87c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3781982841265840539
-    second: black mordern table_0
+      213: 177498504995960491
+    second: main screen_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: black mordern table_0
+      name: main screen_0
       rect:
         serializedVersion: 2
-        x: 793
-        y: 786
-        width: 520
-        height: 405
+        x: 0
+        y: 0
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56e1ab7c4a2b38bc0800000000000000
-      internalID: -3781982841265840539
+      spriteID: ba6727a23f9967200800000000000000
+      internalID: 177498504995960491
       vertices: []
       indices: 
       edges: []

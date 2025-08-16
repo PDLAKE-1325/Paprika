@@ -25,8 +25,6 @@ public class NetWorkManager : Singleton<NetWorkManager>
         PlayFabClientAPI.RegisterPlayFabUser(request, result =>
         {
             Debug.Log("회원가입 성공!");
-            // 가입 후 자동 로그인 처리
-            Login(email, password);
         }, error =>
         {
             Debug.LogError("회원가입 실패 : " + error.GenerateErrorReport());
@@ -55,8 +53,15 @@ public class NetWorkManager : Singleton<NetWorkManager>
     public void Logout()
     {
         Debug.Log("로그아웃함");
-        CallManageSession("logout");
-        StopHeartbeat();
+        try
+        {
+            CallManageSession("logout");
+            StopHeartbeat();
+        }
+        catch
+        {
+            Debug.Log("[로그아웃] 로그인 되어야 쓸 수 있는 매서드임");
+        }
     }
 
     #endregion

@@ -5,6 +5,7 @@ public class MainChange : MonoBehaviour
 {
     [SerializeField] RectTransform playObjRect;
     public Design design;
+    public FriendManager friendManager;
     public List<GameObject> screen;
     public Image eye_open;
     public Image eye_close;
@@ -12,6 +13,9 @@ public class MainChange : MonoBehaviour
     {
         ChangeScreen(0);//시작시 기본 첫번째
         design.designReset();
+        FurnitureShopManager.Instance.InitialFurnitureSet(design);
+        friendManager.UpsertSelfToServerList();
+
     }
     public void ChangeScreen(int index)
     {

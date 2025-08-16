@@ -6,11 +6,14 @@ public class freindObj : MonoBehaviour
 {
     public Text username;
     public string id;
+    public string item_id;
     public Image follow_img;
     public Text follow_text;
     public Action<string, freindObj> followButton_action;
     public Action<string, freindObj> unfollowButton_action;
+    public Action<string, string, int> gift_action;
     bool following;
+    public bool is_gift;
     public void FollowState(bool following)
     {
         this.following = following;
@@ -29,6 +32,11 @@ public class freindObj : MonoBehaviour
     }
     public void OnButtonClicked()
     {
+        if (is_gift)
+        {
+            gift_action?.Invoke(id, item_id, 300);
+            return;
+        }
         if (following) unfollowButton_action?.Invoke(id, this);
         else followButton_action?.Invoke(id, this);
     }

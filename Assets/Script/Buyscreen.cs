@@ -8,12 +8,16 @@ public class Buyscreen : MonoBehaviour
     public Image buyImage;
     public List<Sprite> Item;
     public Text buytext;
+
+    [SerializeField] string curItem;
+
     public void buywindowON(bool buywindowWhether)
     {
         buywindow.SetActive(buywindowWhether);//사는 창 열고 닫기
     }
     public void ItemDivision(string name)
     {// 버튼 마다 item 구분을 위한 함수
+        curItem = name;
         for (int i = 0; i < Item.Count; i++)
         {
             if (Item[i].name == name)
@@ -32,7 +36,7 @@ public class Buyscreen : MonoBehaviour
         if (index < 16) return new Vector2(377, 314); // 야외 의자
         if (index < 19) return new Vector2(447, 348); // 사각 테이블
         if (index < 24) return new Vector2(408, 303); // 반원 테이블
-        if (index < 28||index==36) return new Vector2(1080 / 2, 1081 / 2); // 집
+        if (index < 28 || index == 36) return new Vector2(1080 / 2, 1081 / 2); // 집
         // 아래는 각각 고정
         Vector2[] Flower_Pet_Sizes = {
             new Vector2(96*2, 183*2),  // 나팔꽃 i==28
@@ -54,5 +58,8 @@ public class Buyscreen : MonoBehaviour
     {
         buytext.text = furniture + " 을(를) 구매 하시겠습니까?";
     }
-
+    public void BuyButton()
+    {
+        FurnitureShopManager.Instance.PurchaseFurniture(curItem, 300);
+    }
 }

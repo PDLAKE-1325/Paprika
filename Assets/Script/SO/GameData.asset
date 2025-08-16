@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 554c867daec6e4e728a08bac5e18a0f1, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: 
-  screenIndex: 3
+  screenIndex: 0
   UI_on_off: 1
   my_displayName: micle2
   designSetting:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - black house day_0
+  - teddy bear bed_0
+  - taddy bear sofa_0
+  - taddy bear table_0
+  - sunflower_0
+  - Uparupa(1)_0
