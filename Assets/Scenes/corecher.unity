@@ -5371,6 +5371,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buyscreen: {fileID: 1779435690}
+  design:
+  - {fileID: 140878092}
+  - {fileID: 137509638}
+  - {fileID: 1776399622}
+  - {fileID: 749882166}
+  - {fileID: 206630811}
+  - {fileID: 327043486}
   house: {fileID: 140878092}
   bad: {fileID: 137509638}
   sopa: {fileID: 1776399622}
@@ -7365,6 +7372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playObjRect: {fileID: 287919710}
+  design: {fileID: 375106425}
   screen:
   - {fileID: 992864679}
   - {fileID: 1779435685}

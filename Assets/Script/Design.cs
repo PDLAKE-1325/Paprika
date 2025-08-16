@@ -2,58 +2,54 @@ using System.Linq;
 using UnityEngine.UI;
 using UnityEngine;
 using JetBrains.Annotations;
+using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 public class Design : MonoBehaviour
 {
    public Buyscreen buyscreen;
+   public List<Image> design;
    public Image house;
    public Image bad;
    public Image sopa;
    public Image table;
    public Image pot;
    public Image pet;
-   public void place(string name)
-    {// 버튼 마다 item 구분을 위한 함수
-        for (int i = 0; i < buyscreen.Item.Count; i++)
+    public void designReset()
+    {
+        for(int i=0;i<design.Count;i++)
         {
-            if (buyscreen.Item[i].name == name)
-            {   
-               type(i);
+            for(int j=0;j<buyscreen.Item.Count;j++)
+            {
+                if(GlobalGameData.Instance.data.designSetting[i]==buyscreen.Item[j].name)
+                {
+                    design[i].sprite=buyscreen.Item[j];
+                    design[i].rectTransform.sizeDelta=buyscreen.GetSizeByIndex(j);
+                }   
             }
         }
     }
-    public void type(int index)
+    public void place(string name)// 버튼 마다 item 구분을 위한 함수
     {
-        if(index<8)
+        for (int i = 0; i < buyscreen.Item.Count; i++)
         {
-            bad.sprite=buyscreen.Item[index];
-            bad.rectTransform.sizeDelta=buyscreen.GetSizeByIndex(index);
-        } 
-        else if(index<16)
-        {
-            sopa.sprite=buyscreen.Item[index];
-            sopa.rectTransform.sizeDelta=buyscreen.GetSizeByIndex(index);
+            if (buyscreen.Item[i].name == name)
+            {
+               int index=types(i);
+               GlobalGameData.Instance.data.designSetting[index]=name;
+               designReset();
+            }
         }
-        else if(index<24)
-        {
-            table.sprite=buyscreen.Item[index];
-            table.rectTransform.sizeDelta=buyscreen.GetSizeByIndex(index);
-        } 
-        else if(index<28||index==36)
-        {
-            house.sprite=buyscreen.Item[index];
-            house.rectTransform.sizeDelta=buyscreen.GetSizeByIndex(index);
-        } 
-        else if(index<32)
-        {
-            pot.sprite=buyscreen.Item[index];
-            pot.rectTransform.sizeDelta=buyscreen.GetSizeByIndex(index);
-        } 
-        else if(index<36)
-        {
-            pet.sprite=buyscreen.Item[index];
-            pet.rectTransform.sizeDelta=buyscreen.GetSizeByIndex(index);
-        }
-        else return;
+    }
+
+    public int types(int index)
+    {
+        if(index<8)return 1;
+        else if(index<16)return 2;
+        else if(index<24)return 3;
+        else if(index<28||index==36)return 0;
+        else if(index<32)return 4;
+        else if(index<36)return 5;
+        else return -1;
     }
 }

@@ -26,7 +26,6 @@ public class Buyscreen : MonoBehaviour
 
     public Vector2 GetSizeByIndex(int index)//이미지 마다 크기가 다른 걸 고려한 함수
     {
-        Debug.Log(index);
         if (index < 5) return new Vector2(532, 386); // 앞이 가려진 침대
         if (index < 8) return new Vector2(518, 370); // 앞이 열린 침대
         if (index < 12) return new Vector2(309, 315); // 기본 소파

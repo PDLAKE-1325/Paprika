@@ -4,12 +4,14 @@ using UnityEngine.UI;
 public class MainChange : MonoBehaviour
 {
     [SerializeField] RectTransform playObjRect;
+    public Design design;
     public List<GameObject> screen;
     public Image eye_open;
     public Image eye_close;
     void Start()
     {
         ChangeScreen(0);//시작시 기본 첫번째
+        design.designReset();
     }
     public void ChangeScreen(int index)
     {
