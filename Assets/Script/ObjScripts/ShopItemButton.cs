@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class ShopItemButton : MonoBehaviour
 {
     [SerializeField] Button button;
+    [SerializeField] Text price;
     [SerializeField] string fname;
     void Update()
     {
@@ -20,5 +21,6 @@ public class ShopItemButton : MonoBehaviour
             }
             button.interactable = flag;
         }
+        price.text = $"{DataForm.Instance.item_prices[fname]}";
     }
 }

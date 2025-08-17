@@ -37,6 +37,7 @@ public class TImeText : Singleton<TImeText>
             GlobalGameData.Instance.data.my_displayName = result.AccountInfo.TitleInfo.DisplayName;
             Debug.Log("로그인 되어있음 : " + GlobalGameData.Instance.data.my_displayName);
             loggedIn = true;
+            PlayFabClientAPI.GetTime(new GetTimeRequest(), OnSuccess1, OnError);
         }, error =>
         {
             Debug.LogError("로그인 상태 아니거나 세션 만료 (신경 안써도됨)");
@@ -61,10 +62,20 @@ public class TImeText : Singleton<TImeText>
         }
     }
 
+    void OnSuccess1(GetTimeResult result)
+    {
+        Bed.Instance.GetMinutesSinceLastPlay(result.Time.AddHours(9));
+    }
     void OnSuccess(GetTimeResult result)
     {
         lastServerTime = result.Time.AddHours(9);
         UpdateUI(lastServerTime);
+        Bed.Instance.SaveEndTime(lastServerTime);
+    }
+
+    void OnApplicationQuit()
+    {
+
     }
 
     void OnError(PlayFabError error)

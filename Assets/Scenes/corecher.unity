@@ -511,6 +511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (pink morning table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -797,6 +801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (taddy bear table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -1006,6 +1014,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (pink morning sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1410,6 +1422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (yellow morning table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -1783,6 +1799,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -1872,6 +1892,7 @@ GameObject:
   - component: {fileID: 137509640}
   - component: {fileID: 137509639}
   - component: {fileID: 137509638}
+  - component: {fileID: 137509641}
   m_Layer: 5
   m_Name: bed
   m_TagString: Untagged
@@ -1936,6 +1957,35 @@ RectTransform:
   m_AnchoredPosition: {x: 233, y: -248}
   m_SizeDelta: {x: 523, y: 386}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &137509641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137509637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55444885ce8d84a31930fc4be473a99c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item_n:
+  - key: white modern bed_0
+    value: 1
+  - key: black mordern bed_2_0
+    value: 1
+  - key: green modern bed_0
+    value: 1
+  - key: pink morning bed_0
+    value: 3
+  - key: purple morning bed_0
+    value: 3
+  - key: yellow morning bed_0
+    value: 3
+  - key: starlight bed_0
+    value: 3
+  - key: teddy bear bed_0
+    value: 2
 --- !u!1001 &140673164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2067,6 +2117,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (starlight table)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2545,6 +2599,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (red panda)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3234,6 +3292,7 @@ GameObject:
   - component: {fileID: 206630813}
   - component: {fileID: 206630812}
   - component: {fileID: 206630811}
+  - component: {fileID: 206630814}
   m_Layer: 5
   m_Name: pot_flower
   m_TagString: Untagged
@@ -3298,6 +3357,27 @@ RectTransform:
   m_AnchoredPosition: {x: 105, y: -342}
   m_SizeDelta: {x: 192, y: 366}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &206630814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206630810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29690effeccb45edb05f9c5cfa37366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item_n:
+  - key: chestnut trumpet flower_0
+    value: 1
+  - key: paprika flower_0
+    value: 2
+  - key: rose flower_0
+    value: 3
+  - key: sunflower_0
+    value: 2
 --- !u!1 &213665829
 GameObject:
   m_ObjectHideFlags: 0
@@ -4010,6 +4090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (purple morning table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -4552,6 +4636,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (black modern bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -5761,6 +5849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (rose flower)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -6446,6 +6538,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -6856,6 +6952,8 @@ GameObject:
   - component: {fileID: 327043488}
   - component: {fileID: 327043487}
   - component: {fileID: 327043486}
+  - component: {fileID: 327043490}
+  - component: {fileID: 327043489}
   m_Layer: 5
   m_Name: pet
   m_TagString: Untagged
@@ -6920,6 +7018,67 @@ RectTransform:
   m_AnchoredPosition: {x: 232, y: -218}
   m_SizeDelta: {x: 200, y: 190}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &327043489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327043485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 327043490}
+          m_TargetAssemblyTypeName: Pet, Assembly-CSharp
+          m_MethodName: OnStroke
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &327043490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327043485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c414e79f28e4418a2844b7791c9e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item_n:
+  - key: white mordern sofa_0
+    value: 1
+  - key: black mordern sofa_0
+    value: 1
+  - key: green mordern sofa_0
+    value: 1
+  - key: pink morning sofa_0
+    value: 3
+  - key: purlpe morning sofa_0
+    value: 3
+  - key: yellow morning sofa_0
+    value: 3
+  - key: starlight sofa_0
+    value: 3
+  - key: taddy bear sofa_0
+    value: 2
+  delay_set: 1
+  heart_prefab: {fileID: 650954762780937597, guid: 57884d0fd748a41cb9d95244244ab543, type: 3}
+  heart_parent: {fileID: 327043488}
 --- !u!1 &328027630
 GameObject:
   m_ObjectHideFlags: 0
@@ -7174,6 +7333,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (sunflower)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -8844,6 +9007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (white mordern table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -9914,6 +10081,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (teddy bear bed)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -10118,6 +10289,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (white mordern sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -10375,6 +10550,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -11000,6 +11179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (sunflower)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -11616,6 +11799,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (purlpe morning sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -12548,6 +12735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (paprika flower)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -13311,6 +13502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (purlpe morning sofa)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -13718,6 +13913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (black mordern table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -14092,6 +14291,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (white modern bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -14849,6 +15052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (white mordern table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -15582,6 +15789,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -15795,6 +16006,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (red panda)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -16214,6 +16429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (yellow modern bed)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -16561,6 +16780,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Interactable
@@ -17365,6 +17588,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (starlight bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -18231,6 +18458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (taddy bear table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -18435,6 +18666,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (black mordern sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -19325,6 +19560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (black modern bed)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -20056,6 +20295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (puppy)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -20438,6 +20681,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (yellow modern bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -20922,6 +21169,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (purple modern bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -23033,6 +23284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (purple morning table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -23521,6 +23776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (pink morning table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -23730,6 +23989,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (purple modern bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -24080,6 +24343,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (yellow morning table)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -24614,6 +24881,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -24822,6 +25093,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (Uparupa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -25155,7 +25430,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchorMin.x
@@ -25163,15 +25438,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 150
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25203,11 +25478,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 265
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -95
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -25240,6 +25515,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (starlight house day)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -26033,6 +26312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (starlight table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -26745,6 +27028,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -27039,6 +27326,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -27243,6 +27534,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (starlight sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -27689,6 +27984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (starlight house day)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -27898,6 +28197,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (yellow morning sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -28187,6 +28490,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (black mordern sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -28481,6 +28788,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -28812,6 +29123,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (pink morning sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -29873,6 +30188,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (pink modern bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -31042,6 +31361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (puppy)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -31869,6 +32192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (taddy bear sofa)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -32298,7 +32625,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -800, y: -302.89758}
+  m_SizeDelta: {x: -800, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1642304465
 MonoBehaviour:
@@ -32998,6 +33325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (pink modern bed)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -33328,6 +33659,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (taddy bear sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -34061,7 +34396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1779435686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34603,7 +34938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchorMin.x
@@ -34611,15 +34946,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 150
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34651,11 +34986,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -95
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -95
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -34700,6 +35035,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Interactable
@@ -34820,7 +35159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchorMin.x
@@ -34828,15 +35167,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 150
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34868,11 +35207,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 85
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -95
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081037552229358316, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -34909,6 +35248,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -35257,6 +35600,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (starlight sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -35633,6 +35980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (yellow morning sofa)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -35847,6 +36198,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -36869,7 +37224,7 @@ RectTransform:
   m_Father: {fileID: 893318405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 3, y: 7.5}
   m_SizeDelta: {x: 6, y: 95}
   m_Pivot: {x: 1, y: 0.5}
@@ -37046,6 +37401,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (Uparupa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -37409,6 +37768,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (rose flower)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -38084,6 +38447,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (teddy bear bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -38839,6 +39206,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (white mordern sofa)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -39716,6 +40087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (black mordern table)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -40321,6 +40696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemButton (paprika flower)
       objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
+      objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -40566,6 +40945,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (starlight bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -41065,6 +41448,10 @@ PrefabInstance:
     - target: {fileID: 5085095160441247091, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Name
       value: ItemButton (white modern bed)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515740035946053364, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.369202
       objectReference: {fileID: 0}
     - target: {fileID: 6890460818396601373, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

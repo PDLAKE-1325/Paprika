@@ -22,3 +22,64 @@ MonoBehaviour:
   - taddy bear table_0
   - sunflower_0
   - Uparupa(1)_0
+  itemPrices:
+  - key: white house day_0
+    value: 500
+  - key: black house day_0
+    value: 500
+  - key: starlight house day_0
+    value: 1000
+  - key: white modern bed_0
+    value: 150
+  - key: black mordern bed_2_0
+    value: 150
+  - key: pink morning bed_0
+    value: 300
+  - key: purple morning bed_0
+    value: 300
+  - key: yellow morning bed_0
+    value: 300
+  - key: starlight bed_0
+    value: 300
+  - key: teddy bear bed_0
+    value: 200
+  - key: white mordern sofa_0
+    value: 150
+  - key: black mordern sofa_0
+    value: 150
+  - key: pink morning sofa_0
+    value: 300
+  - key: purlpe morning sofa_0
+    value: 300
+  - key: yellow morning sofa_0
+    value: 300
+  - key: starlight sofa_0
+    value: 300
+  - key: taddy bear sofa_0
+    value: 200
+  - key: white mordern table_0
+    value: 150
+  - key: black mordern table_0
+    value: 150
+  - key: pink morning table_0
+    value: 300
+  - key: purple morning table_0
+    value: 300
+  - key: yellow morning table_0
+    value: 300
+  - key: starlight table_0
+    value: 300
+  - key: taddy bear table_0
+    value: 200
+  - key: paprika flower_0
+    value: 200
+  - key: rose flower_0
+    value: 400
+  - key: sunflower_0
+    value: 300
+  - key: puppy(1)_0
+    value: 2000
+  - key: red panda(1)_0
+    value: 6000
+  - key: Uparupa(1)_0
+    value: 4000

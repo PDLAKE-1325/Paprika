@@ -10,4 +10,6 @@ public class GameData : ScriptableObject
     public string my_displayName;
     public List<string> designSetting;
     public List<StringIntPair> itemPrices;
+    public int luckyCoinPercentage = 1;
+    public int luckyPercentageAdd = 0;
 }
