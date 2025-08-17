@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -200, y: -22}
-  m_SizeDelta: {x: 350, y: 90}
+  m_SizeDelta: {x: 350, y: 40}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &6896247908711059959
 CanvasRenderer:
@@ -279,8 +279,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: freindObj, Assembly-CSharp
+      - m_Target: {fileID: 421581066689652475}
+        m_TargetAssemblyTypeName: presentObj, Assembly-CSharp
         m_MethodName: OnButtonClicked
         m_Mode: 1
         m_Arguments:
@@ -452,6 +452,7 @@ GameObject:
   - component: {fileID: 6384277297352791025}
   - component: {fileID: 2644039865056717328}
   - component: {fileID: 3797509646158658011}
+  - component: {fileID: 421581066689652475}
   m_Layer: 5
   m_Name: gift
   m_TagString: Untagged
@@ -521,6 +522,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &421581066689652475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7216176921423002203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a910a05c84c42cdad6a6c753c6f964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  username: {fileID: 4024941515754491221}
+  itemname: {fileID: 8535165285244484933}
+  gift_id: 
+  item_id: 
+  gift_img: {fileID: 7250760787490948237}
 --- !u!1 &8671186727969981118
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +574,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -200, y: 18}
-  m_SizeDelta: {x: 350, y: 90}
+  m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &3215331625515679308
 CanvasRenderer:

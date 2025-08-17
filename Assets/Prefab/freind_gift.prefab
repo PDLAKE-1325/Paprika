@@ -200,7 +200,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1694981604927055124}
         m_TargetAssemblyTypeName: freindObj, Assembly-CSharp
         m_MethodName: OnButtonClicked
         m_Mode: 1
@@ -380,8 +380,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   username: {fileID: 8535165285244484933}
   id: 
+  item_id: 
   follow_img: {fileID: 218806319289509980}
   follow_text: {fileID: 689065664852089409}
+  is_gift: 0
 --- !u!1 &8671186727969981118
 GameObject:
   m_ObjectHideFlags: 0

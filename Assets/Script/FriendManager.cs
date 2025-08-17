@@ -5,7 +5,6 @@ using PlayFab.ClientModels;
 using System;
 using UnityEngine.UI;
 
-// Unity 6 호환을 위한 JSON 데이터 구조체들
 [System.Serializable]
 public class UserData
 {

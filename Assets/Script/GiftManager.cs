@@ -67,8 +67,15 @@ public class GiftManager : Singleton<GiftManager>
         }
     }
 
+    #region 선물하기
     public void SendGift(string targetUserId, string itemId, int itemPrice)
     {
+        if (FurnitureShopManager.Instance.currentGold < itemPrice)
+        {
+            Debug.Log("GC 부족함");
+            return;
+        }
+
         var subtractRequest = new SubtractUserVirtualCurrencyRequest
         {
             VirtualCurrency = "GC",
@@ -79,6 +86,7 @@ public class GiftManager : Singleton<GiftManager>
             (result) =>
             {
                 CreateGiftData(targetUserId, itemId, itemPrice);
+                FurnitureShopManager.Instance.GetUserCurrency();
             },
             (error) =>
             {
@@ -119,5 +127,7 @@ public class GiftManager : Singleton<GiftManager>
         {
             Debug.LogError("CloudScript 에러: " + error.GenerateErrorReport());
         });
+        gameObject.SetActive(false);
     }
+    #endregion
 }

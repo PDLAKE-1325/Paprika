@@ -28,6 +28,11 @@ public class Buyscreen : MonoBehaviour
         }
     }
 
+    void OnEnable()
+    {
+        buywindowON(false);
+    }
+
     public Vector2 GetSizeByIndex(int index)//이미지 마다 크기가 다른 걸 고려한 함수
     {
         if (index < 5) return new Vector2(532, 386); // 앞이 가려진 침대
