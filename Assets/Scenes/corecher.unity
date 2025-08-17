@@ -2297,6 +2297,8 @@ MonoBehaviour:
   - {fileID: 6930936144799814180, guid: 06bb5daf60465564c9384794ad2fe470, type: 3}
   - {fileID: -7651070781738764838, guid: ea917401fae58024d8825bae84e42891, type: 3}
   - {fileID: 9148333172500449069, guid: 371accf832c1b484da76866c3c1f65fd, type: 3}
+  dayBGM: {fileID: 8300000, guid: 51007f5336c8840849fc3923a1cb4244, type: 3}
+  nightBGM: {fileID: 8300000, guid: cb773a85c17c64b4e829adcce520625a, type: 3}
 --- !u!1001 &143406640
 PrefabInstance:
   m_ObjectHideFlags: 0

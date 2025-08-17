@@ -6,6 +6,8 @@ public class homeTime : MonoBehaviour
 {
     Image img;
     [SerializeField] Sprite[] sprites;
+    [SerializeField] AudioClip dayBGM;
+    [SerializeField] AudioClip nightBGM;
     void Start()
     {
         img = GetComponent<Image>();
@@ -17,10 +19,12 @@ public class homeTime : MonoBehaviour
 
         if (hour >= 7 && hour < 22)
         {
+            SoundManager.Instance.PlayBgm(dayBGM);
             Day();
         }
         else
         {
+            SoundManager.Instance.PlayBgm(nightBGM);
             Night();
         }
     }

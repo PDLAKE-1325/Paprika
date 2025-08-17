@@ -25,8 +25,14 @@ public class NetWorkManager : Singleton<NetWorkManager>
         PlayFabClientAPI.RegisterPlayFabUser(request, result =>
         {
             Debug.Log("회원가입 성공!");
+
+            LoginManager.Instance.onLogTime += 1;
+            LoginManager.Instance.log_text.text = "회원가입 성공";
+            LoginManager.Instance.ChangeForm();
         }, error =>
         {
+            LoginManager.Instance.onLogTime += 1;
+            LoginManager.Instance.log_text.text = "회원가입 실패. 다시 시도해주세요.";
             Debug.LogError("회원가입 실패 : " + error.GenerateErrorReport());
         });
     }
@@ -46,6 +52,8 @@ public class NetWorkManager : Singleton<NetWorkManager>
             StartHeartbeat();
         }, error =>
         {
+            LoginManager.Instance.onLogTime += 1;
+            LoginManager.Instance.log_text.text = "로그인 실패. 다시 시도해주세요.";
             Debug.LogError("로그인 실패함 : " + error.GenerateErrorReport());
         });
     }
