@@ -34,7 +34,7 @@ public class freindObj : MonoBehaviour
     {
         if (is_gift)
         {
-            gift_action?.Invoke(id, item_id, 300);
+            gift_action?.Invoke(id, item_id, DataForm.Instance.item_prices[item_id]);
             return;
         }
         if (following) unfollowButton_action?.Invoke(id, this);

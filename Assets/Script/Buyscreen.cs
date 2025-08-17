@@ -61,10 +61,13 @@ public class Buyscreen : MonoBehaviour
     }
     public void BuyText(string furniture)
     {
-        buytext.text = furniture + " 을(를) 구매 하시겠습니까?";
+        if (GlobalGameData.Instance.data.screenIndex != 5)
+            buytext.text = furniture + " 을(를) 구매 하시겠습니까?";
+        else
+            buytext.text = furniture + " 을(를) 선물 하시겠습니까?";
     }
     public void BuyButton()
     {
-        FurnitureShopManager.Instance.PurchaseFurniture(curItem, 300);
+        FurnitureShopManager.Instance.PurchaseFurniture(curItem, DataForm.Instance.item_prices[curItem]);
     }
 }

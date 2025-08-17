@@ -539,6 +539,68 @@ MonoBehaviour:
   gift_id: 
   item_id: 
   gift_img: {fileID: 7250760787490948237}
+  sprites:
+  - {fileID: 3815143560384534608, guid: 1d55d195b10ed794ea03071aaf1c9b47, type: 3}
+  - {fileID: 7537578555824736522, guid: a0ab9a6ab3041284cb422e722ce48689, type: 3}
+  - {fileID: -1091990379638948855, guid: 7e3693416196bbe45be9b2254cc23bf6, type: 3}
+  - {fileID: -3884547594970593255, guid: 83baefec9d79c014ca0f8374e79e4aee, type: 3}
+  - {fileID: 5878329310034342498, guid: 7119dcb2926c6b447a0e3dd87ff85a87, type: 3}
+  - {fileID: -1758341170529865849, guid: cfe73acdb79d5e54fb8a6bb3bc5492f8, type: 3}
+  - {fileID: 4235205289104347874, guid: 7fdb63a043a35f946a34bc7508703916, type: 3}
+  - {fileID: -8876027263243200946, guid: ac7fd3816e28ef645a96a5485c109346, type: 3}
+  - {fileID: -6703417478481386638, guid: f5b97b44029602445853f2edeb6afb2e, type: 3}
+  - {fileID: 7367808777163505026, guid: 78eab7a0c5e6cec41abbdd0d85e6b4e2, type: 3}
+  - {fileID: 5426254317743821757, guid: 84f6ef5e87158c54296014c2bf66c62c, type: 3}
+  - {fileID: 2100587025243365278, guid: 6a70a545163cccf4989c089ed4f2736c, type: 3}
+  - {fileID: -7250690886473485692, guid: 0b5f2dd2f544acc4ab6a048de32ada4c, type: 3}
+  - {fileID: 7428645538865943380, guid: abed69c01abb65847bf59e7ac13d3978, type: 3}
+  - {fileID: -6069540109701257778, guid: 987b00e9635c4c444883ab0acb1f49a4, type: 3}
+  - {fileID: -8948884216044491246, guid: 685f4251a865e404bbfaab747b004386, type: 3}
+  - {fileID: 7008224082439546599, guid: b51834b6ccfd0be4c992fb4b09dd8071, type: 3}
+  - {fileID: -3781982841265840539, guid: 173b9983f02a0480f8be0a0bb8ca82e7, type: 3}
+  - {fileID: -2366877423527914445, guid: 2838068e5b44baf4db19e1675dc82784, type: 3}
+  - {fileID: -408773543270908056, guid: e8918de2a2cd6d941975f0239ac1490a, type: 3}
+  - {fileID: 5141313427330850810, guid: 33dce63765b4d304b88cca2a3739d259, type: 3}
+  - {fileID: 7171695699776580625, guid: 3ef84684aaefe7a40a2373a4a43f4217, type: 3}
+  - {fileID: -4078182334770030449, guid: 2d697e61619074145847aa106edfe488, type: 3}
+  - {fileID: -6131784506651158223, guid: 35cac29dac063ec488aa266ecac5527e, type: 3}
+  - {fileID: -4681263709667466314, guid: e104c7673fd3b494cbee6a6744db2657, type: 3}
+  - {fileID: 5676764131089421402, guid: 2f1911d7f8fdb054f8cd1dc99edd9ea2, type: 3}
+  - {fileID: -7651070781738764838, guid: ea917401fae58024d8825bae84e42891, type: 3}
+  - {fileID: 4018446841398345536, guid: 3cff72ada1446d2489c27fcd5e29482d, type: 3}
+  - {fileID: -6762446538679827777, guid: 8e87344fd08064949bc9965fd74f9d1f, type: 3}
+  - {fileID: -1896860752618446195, guid: 85ed3b4078b177046b7443a4b4221fb5, type: 3}
+  names:
+  - "\uBE14\uB799 \uCE68\uB300"
+  - "\uD654\uC774\uD2B8 \uCE68\uB300"
+  - "\uD551\uD06C \uCE68\uB300"
+  - "\uD37C\uD50C \uCE68\uB300"
+  - "\uC610\uB85C\uC6B0 \uCE68\uB300"
+  - "\uBCC4\uBE5B \uCE68\uB300"
+  - "\uACF0\uB3CC\uC774 \uCE68\uB300"
+  - "\uD30C\uD504\uB9AC\uCE74"
+  - "\uC7A5\uBBF8"
+  - "\uD574\uBC14\uB77C\uAE30"
+  - "\uBE14\uB799 \uC18C\uD30C"
+  - "\uD654\uC774\uD2B8 \uC18C\uD30C"
+  - "\uD551\uD06C \uC18C\uD30C"
+  - "\uD37C\uD50C \uC18C\uD30C"
+  - "\uC610\uB85C\uC6B0 \uC18C\uD30C"
+  - "\uBCC4\uBE5B \uC18C\uD30C"
+  - "\uACF0\uB3CC\uC774 \uC18C\uD30C"
+  - "\uBE14\uB799 \uCC45\uC0C1"
+  - "\uD654\uC774\uD2B8 \uCC45\uC0C1"
+  - "\uD551\uD06C \uCC45\uC0C1"
+  - "\uD37C\uD50C \uCC45\uC0C1"
+  - "\uC610\uB85C\uC6B0 \uCC45\uC0C1"
+  - "\uBCC4\uBE5B \uCC45\uC0C1"
+  - "\uACF0\uB3CC\uC774 \uCC45\uC0C1"
+  - "\uBE14\uB799 \uD558\uC6B0\uC2A4"
+  - "\uBCC4\uBE5B \uD558\uC6B0\uC2A4"
+  - "\uD654\uC774\uD2B8 \uD558\uC6B0\uC2A4"
+  - "\uAC15\uC544\uC9C0"
+  - "\uB808\uC11C \uD310\uB2E4"
+  - "\uC6B0\uD30C\uB8E8\uD30C"
 --- !u!1 &8671186727969981118
 GameObject:
   m_ObjectHideFlags: 0

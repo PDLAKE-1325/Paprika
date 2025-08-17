@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,13 +12,22 @@ public class presentObj : MonoBehaviour
     public Image gift_img;
     public Action<string> receive_action;
 
+    [SerializeField] List<Sprite> sprites;
+    [SerializeField] List<string> names;
+
     public void OnButtonClicked()
     {
         receive_action?.Invoke(gift_id);
     }
     public void InitialSet()
     {
-        itemname.text = item_id;
-        // 생성되고 거기서실행시킴이거 이미지바뀌는거 해야함
+        for (int i = 0; i < sprites.Count; i++)
+        {
+            if (item_id == sprites[i].name)
+            {
+                gift_img.sprite = sprites[i];
+                itemname.text = names[i];
+            }
+        }
     }
 }

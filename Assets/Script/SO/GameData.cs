@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,4 +9,5 @@ public class GameData : ScriptableObject
     public bool UI_on_off = true;
     public string my_displayName;
     public List<string> designSetting;
+    public List<StringIntPair> itemPrices;
 }
