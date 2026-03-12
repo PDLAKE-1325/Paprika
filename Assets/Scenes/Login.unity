@@ -1082,6 +1082,7 @@ GameObject:
   - component: {fileID: 566335648}
   - component: {fileID: 566335647}
   - component: {fileID: 566335646}
+  - component: {fileID: 566335649}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1175,6 +1176,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &566335649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566335644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae1d6adffa50d4647bb0cd16c6b9ef2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &566381162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,8 +2061,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1159841845}
   m_TextComponent: {fileID: 63723053}
   m_Placeholder: {fileID: 1049594728}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -2873,8 +2886,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1964984449}
   m_TextComponent: {fileID: 1323765612}
   m_Placeholder: {fileID: 268839185}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0

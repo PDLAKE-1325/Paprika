@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// 접속 시간 플레이어 이름에 따라서 설정해야함 이거
+
 public class Bed : Singleton<Bed>
 {
     private const string LastSavedKey = "LastSavedTime";

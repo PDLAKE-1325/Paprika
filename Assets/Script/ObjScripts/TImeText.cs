@@ -30,6 +30,12 @@ public class TImeText : Singleton<TImeText>
         lastServerTime = DateTime.Now;
         CheckLoginStatus();
     }
+
+    public bool IsDay()
+    {
+        int hour = lastServerTime.Hour;
+        return hour >= 7 && hour < 22;
+    }
     public void CheckLoginStatus()
     {
         PlayFabClientAPI.GetAccountInfo(new GetAccountInfoRequest(), result =>

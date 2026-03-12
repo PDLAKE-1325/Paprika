@@ -387,6 +387,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1139945605}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -891,6 +899,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1306329593}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -7208,6 +7224,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 39159815}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -13380,6 +13404,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1306329593}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -20560,6 +20592,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1052413333}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -23162,6 +23202,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1139945605}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -23868,6 +23916,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1052413333}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -24214,6 +24270,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1139945605}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Type
       value: 1
@@ -25398,6 +25462,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1642304464}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3184704674421644565, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -26190,6 +26258,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1139945605}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -28076,6 +28148,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1306329593}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -33203,6 +33283,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1052413333}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -35479,6 +35567,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1306329593}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
@@ -40824,6 +40916,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1052413333}
     m_Modifications:
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isDayObject
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 103479987878603160, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
+      propertyPath: isAlltimeObj
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1408809414788648533, guid: 44c4d4678bacd4047ad4ed7054ebdeda, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2
